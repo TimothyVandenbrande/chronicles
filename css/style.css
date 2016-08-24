@@ -1,0 +1,8 @@
+
+#flipbook div {
+	background-image: "img/paper.jpg";
+}
+
+#flipbook .hard {
+	background-image: "img/cover.jpg";
+}

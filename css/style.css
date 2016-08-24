@@ -1,8 +1,11 @@
-
+/* page layout */
 #flipbook div {
-	background-image: "img/paper.jpg";
+	background-image: url("img/paper.jpg");
+    background-color: #000000;
 }
 
+/* cover layout */
 #flipbook .hard {
-	background-image: "img/cover.jpg";
+	background-image: url("img/cover.jpg");
+    background-color: #000000;
 }

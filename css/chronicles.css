@@ -274,7 +274,6 @@ body, ul, table, form{
 
 .cdc-book .even{
 	background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #9D8C60), color-stop(1, #705C41));
-  /*background-image: url('../img/page-even.jpg');*/
 	background-image:-webkit-linear-gradient(left, #9D8C60 95%, #705C41 100%);
 	background-image:-moz-linear-gradient(left, #9D8C60 95%, #705C41 100%);
 	background-image:-ms-linear-gradient(left, #9D8C60 95%, #705C41 100%);
@@ -284,7 +283,6 @@ body, ul, table, form{
 
 .cdc-book .odd{
 	background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #9D8C60), color-stop(1, #705C41));
-  /*background-image: url('../img/page-odd.jpg');*/
 	background-image:-webkit-linear-gradient(right, #9D8C60 95%, #705C41 100%);
 	background-image:-moz-linear-gradient(right, #9D8C60 95%, #705C41 100%);
 	background-image:-ms-linear-gradient(right, #9D8C60 95%, #705C41 100%);
@@ -338,7 +336,6 @@ body, ul, table, form{
 
 .cdc-book .table-contents a:hover{
 	background:#bbaf90;
-	/*background: url(../img/page.jpg);*/
 	float:left;
 	width:100%;
 	clear:both;
@@ -356,13 +353,13 @@ body, ul, table, form{
 }
 
 .cdc-book .capital:first-letter {
-    display:block;
-    float:left;
-    font-size: 300%;
-    line-height: 70%;
-	margin-right: 6px;
-	margin-top: 7px;
-	margin-left:18px;
+  display:block;
+  float:left;
+  font-size: 300%;
+  line-height: 70%;
+  margin-right: 6px;
+  margin-top: 7px;
+  margin-left:18px;
 }
 
 .ie8 .cdc-book .even,

@@ -1,12 +1,12 @@
 /* Cthulhu Dawn Chronicles */
 
-.sj-book .even{
+.cdc-book .even{
 	background-image:url(../pics/gradient-page-left.jpg);
 	background-position:right top;
 	background-repeat:repeat-y;
 }
 
-.sj-book .odd{
+.cdc-book .odd{
 	background-image:url(../pics/gradient-page-right.jpg);
 	background-position:left top;
 	background-repeat:repeat-y;

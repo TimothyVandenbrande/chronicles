@@ -35,12 +35,12 @@ body, ul, table, form{
 	transition: transform 1s;
 }
 
-.sj-book{
+.cdc-book{
 	width:960px;
 	height:600px;
 }
 
-.sj-book h1{
+.cdc-book h1{
 	font-family: "Stempel-Garamond-W01-Roman";
 	font-size: 38px;
 	font-weight: lighter;
@@ -51,7 +51,7 @@ body, ul, table, form{
 	-webkit-text-stroke-width: 0.005em;
 }
 
-.sj-book h2{
+.cdc-book h2{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color:#444;
     font-size:16px;
@@ -59,31 +59,31 @@ body, ul, table, form{
 	font-weight: 400;
 }
 
-.sj-book .book-content{
+.cdc-book .book-content{
 	font-family: "Stempel-Garamond-W01-Roman";
 	font-size:16px;
 	margin:70px 40px;
 }
 
-.sj-book blockquote{
+.cdc-book blockquote{
 	color:#586078;
 	margin:10px 0;
 	font-style:italic;
 }
 
-.sj-book blockquote:before{
+.cdc-book blockquote:before{
 	content: "\201C";
 	color:#333D53;
 	font-size:20px;
 }
 
-.sj-book blockquote:after{
+.cdc-book blockquote:after{
 	content: "\201D";
 	color:#333D53;
 	font-size:20px;
 }
 
-.sj-book cite{
+.cdc-book cite{
 	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:13px;
 	font-weight:200;
@@ -91,24 +91,24 @@ body, ul, table, form{
 	color:#666;
 }
 
-.sj-book .book-content .center-pic{
+.cdc-book .book-content .center-pic{
 	margin:0;
 	text-indent:0;
 	text-align:center;
 }
 
-.sj-book .zoom-this:hover{
+.cdc-book .zoom-this:hover{
 	opacity:0.9;
 	cursor:pointer;
 }
 
-.sj-book .book-content p{
+.cdc-book .book-content p{
 	text-indent: 18px;
 	margin: 20px 0;
 	line-height: 22px;
 }
 
-.sj-book .left-pic{
+.cdc-book .left-pic{
 	float:left;
 	margin-top:15px;
 	margin-right:15px;
@@ -123,7 +123,7 @@ body, ul, table, form{
 	transition:margin-left 0.2s ease-in-out;
 }
 
-.sj-book .shadow{
+.cdc-book .shadow{
 	-webkit-transition: -webkit-box-shadow 0.5s;
 	-moz-transition: -moz-box-shadow 0.5s;
 	-o-transition: -webkit-box-shadow 0.5s;
@@ -136,7 +136,7 @@ body, ul, table, form{
 	box-shadow:0 0 10px #999;
 }
 
-.sj-book .page{
+.cdc-book .page{
 	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.2);
 	-moz-box-shadow:0 0 20px rgba(0,0,0,0.2);
 	-ms-box-shadow:0 0 20px rgba(0,0,0,0.2);
@@ -162,28 +162,28 @@ body, ul, table, form{
 	box-shadow:0 0 20px #999;
 }
 
-.sj-book .p1{
+.cdc-book .p1{
 	background-color:black;
 	background-image:url(../img/empty-cover-front.png) !important;
 }
 
-/*.sj-book .p3,*/
-.sj-book .p2,
-.sj-book .p111{
+/*.cdc-book .p3,*/
+.cdc-book .p2,
+.cdc-book .p111{
 	background-color:black;
 	background-image:url(../img/empty-cover-inner.png) !important;
 }
 
-.sj-book .p112{
+.cdc-book .p112{
 	background-color:black;
 	background-image:url(../img/empty-cover-back.png) !important;
 }
 
-.sj-book .p2{
+.cdc-book .p2{
 	background-position:0 0;
 }
 
-/*.sj-book .p2 .side{
+/*.cdc-book .p2 .side{
 	width:5px;
 	height:600px;
 	position:absolute;
@@ -212,11 +212,11 @@ body, ul, table, form{
 
 }*/
 
-.sj-book-transform div[page="1"] > div, .sj-book-transform div[page="2"] > div{
+.cdc-book-transform div[page="1"] > div, .cdc-book-transform div[page="2"] > div{
 	overflow:visible !important;
 }
 
-.sj-book .depth{
+.cdc-book .depth{
 	background-image:url(../pics/pages-depth.png);
 	position:absolute;
 	top:7px;
@@ -224,34 +224,34 @@ body, ul, table, form{
 	height:590px;
 }
 
-.sj-book .front-side .depth{
+.cdc-book .front-side .depth{
 	left:4px;
 	background-position:0 0;
 }
 
-.sj-book .back-side .depth{
+.cdc-book .back-side .depth{
 	right:4px;
 	background-position:right 0;
 }
 
 
-/*.sj-book .p2{
+/*.cdc-book .p2{
 	background-position:-480px 0 !important;
 }
 
-.sj-book .p3{
+.cdc-book .p3{
 	background-position:-1920px 0 !important;
 }
 
-.sj-book .p111{
+.cdc-book .p111{
 	background-position:-960px 0 !important;
 }*/
 
-.sj-book .p111{
+.cdc-book .p111{
 	background-position:-480px 0 !important;
 }
 
-.sj-book .hard{
+.cdc-book .hard{
 	width:480px;
 	height:600px;
 	background-color:white;
@@ -261,21 +261,21 @@ body, ul, table, form{
 	box-shadow:none;
 }
 
-.sj-book .page-wrapper{
+.cdc-book .page-wrapper{
 	-webkit-perspective:2000px;
 	-moz-perspective: 2000px;
 	-ms-perspective: 2000px;
 	perspective: 2000px;
 }
 
-.sj-book .own-size{
+.cdc-book .own-size{
 	width:460px;
 	height:582px;
 	background-color:white;
 	overflow:hidden;
 }
 
-.sj-book .even{
+.cdc-book .even{
 	background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #333), color-stop(1, #1a1a1a));
 	background-image:-webkit-linear-gradient(left, #333 95%, #1a1a1a 100%);
 	background-image:-moz-linear-gradient(left, #333 95%, #1a1a1a 100%);
@@ -284,7 +284,7 @@ body, ul, table, form{
 	background-image:linear-gradient(left, #333 95%, #1a1a1a 100%);
 }
 
-.sj-book .odd{
+.cdc-book .odd{
 	background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #333), color-stop(1, #0d0d0d));
 	background-image:-webkit-linear-gradient(right, #333 95%, #0d0d0d 100%);
 	background-image:-moz-linear-gradient(right, #333 95%, #0d0d0d 100%);
@@ -293,7 +293,7 @@ body, ul, table, form{
 	background-image:linear-gradient(right, #333 95%, #0d0d0d 100%);
 }
 
-.sj-book .loader{
+.cdc-book .loader{
 	background-image:url(../pics/loader.gif);
 	width:32px;
 	height:32px;
@@ -302,7 +302,7 @@ body, ul, table, form{
 	left:224px;
 }
 
-.sj-book .page-number{
+.cdc-book .page-number{
 	color:#999;
 	width:100%;
 	bottom:25px;
@@ -313,23 +313,23 @@ body, ul, table, form{
 	font-size:11px;
 }
 
-.sj-book .table-contents{
+.cdc-book .table-contents{
 	font-size:16px;
 	width:300px;
 	margin:80px auto;
 	color:#ccc;
 }
 
-.sj-book .table-contents li{
+.cdc-book .table-contents li{
 	list-style:none;
 	line-height:25px;
 }
 
-.sj-book .table-contents span{
+.cdc-book .table-contents span{
 	float:right;
 }
 
-.sj-book .table-contents a{
+.cdc-book .table-contents a{
 	float:left;
 	width:100%;
 	clear:both;
@@ -339,7 +339,7 @@ body, ul, table, form{
 	padding:0 10px;
 }
 
-.sj-book .table-contents a:hover{
+.cdc-book .table-contents a:hover{
 	background:#CAD1EE;
 	float:left;
 	width:100%;
@@ -352,12 +352,12 @@ body, ul, table, form{
 	border-radius:10px;
 }
 
-.sj-book .book-content .capital,
-.sj-book .book-content .no-indent{
+.cdc-book .book-content .capital,
+.cdc-book .book-content .no-indent{
 	text-indent: 0;
 }
 
-.sj-book .capital:first-letter {
+.cdc-book .capital:first-letter {
     display:block;
     float:left;
     font-size: 300%;
@@ -367,15 +367,15 @@ body, ul, table, form{
 	margin-left:18px;
 }
 
-.ie8 .sj-book .even,
-.ie9 .sj-book .even{
+.ie8 .cdc-book .even,
+.ie9 .cdc-book .even{
 	background-image:url(../pics/gradient-page-left.jpg);
 	background-position:right top;
 	background-repeat:repeat-y;
 }
 
-.ie8 .sj-book .odd,
-.ie9 .sj-book .odd{
+.ie8 .cdc-book .odd,
+.ie9 .cdc-book .odd{
 	background-image:url(../pics/gradient-page-right.jpg);
 	background-position:left top;
 	background-repeat:repeat-y;

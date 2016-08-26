@@ -1,4 +1,4 @@
-/* Steve jobs' book */
+/* Cthulhu Dawn Chronicles */
 
 function updateDepth(book, newPage) {
 

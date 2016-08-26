@@ -337,7 +337,7 @@ body, ul, table, form{
 .cdc-book .table-contents a:hover{
 	background:#bbaf90;
 	float:left;
-	width:100%;
+	width:90%;
 	clear:both;
 	text-decoration:none;
 	-webkit-border-radius:10px;

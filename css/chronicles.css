@@ -283,7 +283,7 @@ body, ul, table, form{
 }
 
 .cdc-book .odd{
-	background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #333), color-stop(1, #0d0d0d));
+	background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #9D8C60), color-stop(1, #705C41));
   /*background-image: url('../img/page-odd.jpg');*/
 	background-image:-webkit-linear-gradient(right, #9D8C60 95%, #705C41 100%);
 	background-image:-moz-linear-gradient(right, #9D8C60 95%, #705C41 100%);
@@ -337,8 +337,8 @@ body, ul, table, form{
 }
 
 .cdc-book .table-contents a:hover{
-	/*background:#CAD1EE;*/
-	background: url(../img/page.jpg);
+	background:#bbaf90;
+	/*background: url(../img/page.jpg);*/
 	float:left;
 	width:100%;
 	clear:both;

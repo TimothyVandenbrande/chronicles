@@ -43,11 +43,11 @@ body, ul, table, form{
 .cdc-book h1{
 	font-family: "Stempel-Garamond-W01-Roman";
 	font-size: 38px;
-	font-weight: lighter;
+	/*font-weight: lighter;*/
 	margin: 20px 0;
 	color: #333;
 	-webkit-text-fill-color: #333;
-	-webkit-text-stroke-color: white;
+	-webkit-text-stroke-color: grey;
 	-webkit-text-stroke-width: 0.005em;
 }
 

@@ -3,7 +3,7 @@
 @font-face {
   font-family: 'Stempel-Garamond-W01-Roman';
   font-style: normal;
-  font-weight: normal;
+  font-weight: bolder;
   src: url('../fonts/Stempel-Garamond-W01-Roman.woff') format('woff');
 }
 
@@ -43,12 +43,9 @@ body, ul, table, form{
 .cdc-book h1{
 	font-family: "Stempel-Garamond-W01-Roman";
 	font-size: 38px;
-	/*font-weight: lighter;*/
+	font-weight: bold;
 	margin: 20px 0;
-	color: #333;
-	-webkit-text-fill-color: #333;
-	-webkit-text-stroke-color: grey;
-	-webkit-text-stroke-width: 0.005em;
+	color: #000;
 }
 
 .cdc-book h2{
@@ -276,21 +273,23 @@ body, ul, table, form{
 }
 
 .cdc-book .even{
-	background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #333), color-stop(1, #1a1a1a));
-	background-image:-webkit-linear-gradient(left, #333 95%, #1a1a1a 100%);
-	background-image:-moz-linear-gradient(left, #333 95%, #1a1a1a 100%);
-	background-image:-ms-linear-gradient(left, #333 95%, #1a1a1a 100%);
-	background-image:-o-linear-gradient(left, #333 95%, #1a1a1a 100%);
-	background-image:linear-gradient(left, #333 95%, #1a1a1a 100%);
+	background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #9D8C60), color-stop(1, #705C41));
+  /*background-image: url('../img/page-even.jpg');*/
+	background-image:-webkit-linear-gradient(left, #9D8C60 95%, #705C41 100%);
+	background-image:-moz-linear-gradient(left, #9D8C60 95%, #705C41 100%);
+	background-image:-ms-linear-gradient(left, #9D8C60 95%, #705C41 100%);
+	background-image:-o-linear-gradient(left, #9D8C60 95%, #705C41 100%);
+	background-image:linear-gradient(left, #9D8C60 95%, #705C41 100%);
 }
 
 .cdc-book .odd{
 	background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #333), color-stop(1, #0d0d0d));
-	background-image:-webkit-linear-gradient(right, #333 95%, #0d0d0d 100%);
-	background-image:-moz-linear-gradient(right, #333 95%, #0d0d0d 100%);
-	background-image:-ms-linear-gradient(right, #333 95%, #0d0d0d 100%);
-	background-image:-o-linear-gradient(right, #333 95%, #0d0d0d 100%);
-	background-image:linear-gradient(right, #333 95%, #0d0d0d 100%);
+  /*background-image: url('../img/page-odd.jpg');*/
+	background-image:-webkit-linear-gradient(right, #9D8C60 95%, #705C41 100%);
+	background-image:-moz-linear-gradient(right, #9D8C60 95%, #705C41 100%);
+	background-image:-ms-linear-gradient(right, #9D8C60 95%, #705C41 100%);
+	background-image:-o-linear-gradient(right, #9D8C60 95%, #705C41 100%);
+	background-image:linear-gradient(right, #9D8C60 95%, #705C41 100%);
 }
 
 .cdc-book .loader{
@@ -303,7 +302,6 @@ body, ul, table, form{
 }
 
 .cdc-book .page-number{
-	color:#999;
 	width:100%;
 	bottom:25px;
 	position:absolute;
@@ -317,7 +315,6 @@ body, ul, table, form{
 	font-size:16px;
 	width:300px;
 	margin:80px auto;
-	color:#ccc;
 }
 
 .cdc-book .table-contents li{
@@ -331,7 +328,7 @@ body, ul, table, form{
 
 .cdc-book .table-contents a{
 	float:left;
-	width:100%;
+	width:90%;
 	clear:both;
 	text-decoration:none;
 	color:#333;
@@ -340,7 +337,8 @@ body, ul, table, form{
 }
 
 .cdc-book .table-contents a:hover{
-	background:#CAD1EE;
+	/*background:#CAD1EE;*/
+	background: url(../img/page.jpg);
 	float:left;
 	width:100%;
 	clear:both;

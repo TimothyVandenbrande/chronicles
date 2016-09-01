@@ -166,12 +166,12 @@ body, ul, table, form{
 
 /*.cdc-book .p3,*/
 .cdc-book .p2,
-.cdc-book .p111{
+.cdc-book .p221{
 	background-color:black;
 	background-image:url(../img/empty-cover-inner.png) !important;
 }
 
-.cdc-book .p112{
+.cdc-book .p222{
 	background-color:black;
 	background-image:url(../img/empty-cover-back.png) !important;
 }
@@ -240,11 +240,11 @@ body, ul, table, form{
 	background-position:-1920px 0 !important;
 }
 
-.cdc-book .p111{
+.cdc-book .p221{
 	background-position:-960px 0 !important;
 }*/
 
-.cdc-book .p111{
+.cdc-book .p221{
 	background-position:-480px 0 !important;
 }
 

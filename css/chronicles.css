@@ -214,7 +214,7 @@ body, ul, table, form{
 }
 
 .cdc-book .depth{
-	background-image:url(../pics/pages-depth.png);
+	background-image:url(../img/pages-depth.png);
 	position:absolute;
 	top:7px;
 	width:16px;
@@ -291,7 +291,7 @@ body, ul, table, form{
 }
 
 .cdc-book .loader{
-	background-image:url(../pics/loader.gif);
+	background-image:url(../img/loader.gif);
 	width:32px;
 	height:32px;
 	position:absolute;
@@ -364,14 +364,8 @@ body, ul, table, form{
 
 .ie8 .cdc-book .even,
 .ie9 .cdc-book .even{
-	background-image:url(../pics/gradient-page-left.jpg);
-	background-position:right top;
-	background-repeat:repeat-y;
 }
 
 .ie8 .cdc-book .odd,
 .ie9 .cdc-book .odd{
-	background-image:url(../pics/gradient-page-right.jpg);
-	background-position:left top;
-	background-repeat:repeat-y;
 }
